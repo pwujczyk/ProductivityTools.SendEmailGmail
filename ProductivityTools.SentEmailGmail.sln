@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.SentEmailGmail", "ProductivityTools.SentEmailGmail\ProductivityTools.SentEmailGmail.csproj", "{55CEDB47-033B-4829-8EA6-32BD8D348AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.SentEmailGmailTests", "ProductivityTools.SentEmailGmailTests\ProductivityTools.SentEmailGmailTests.csproj", "{8986EC5D-5526-4421-9726-C5ABF3581777}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55CEDB47-033B-4829-8EA6-32BD8D348AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CEDB47-033B-4829-8EA6-32BD8D348AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CEDB47-033B-4829-8EA6-32BD8D348AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CEDB47-033B-4829-8EA6-32BD8D348AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8986EC5D-5526-4421-9726-C5ABF3581777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8986EC5D-5526-4421-9726-C5ABF3581777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8986EC5D-5526-4421-9726-C5ABF3581777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8986EC5D-5526-4421-9726-C5ABF3581777}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {150177D9-2C68-43C6-BA9A-69889D9F3941}
+	EndGlobalSection
+EndGlobal
