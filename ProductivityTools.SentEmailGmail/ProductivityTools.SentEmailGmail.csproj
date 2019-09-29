@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Paweł Wujczyk</Authors>
+    <Company>ProductivityTools</Company>
+    <Product />
+    <Description>Maxi simple project which has one method used to sent email through gmail account.</Description>
+    <PackageReleaseNotes>gmail mail send</PackageReleaseNotes>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/lgpl-3.0.html</PackageLicenseUrl>
   </PropertyGroup>
 
 </Project>
