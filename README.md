@@ -10,33 +10,18 @@
     </a>
 </p>
 
-# Set-LockScreen
+# Send-EmailGmail
 
-Module sets lock screen to chosen image. It also allows to change Lock screen if setting is managed by your company.
+Nuget simplify sending email through gmail account.
 
 <!--more-->
 <!--og-image-->
-![Lock screen](Images/LockScreen.png)
 
-```powershell
-Set-LockScreen -ImagePath D:\OneDrive\InitPC\JustDoThings.png -Verbose
+```c#
+	IConfigurationRoot configuration = new ConfigurationBuilder()
+	.AddMasterConfiguration()
+	.Build();
+    
+	string password = configuration["GmailPassword"];
+    SentEmailGmail.Gmail.Send("productivitytools.tech@gmail.com", configuration["GmailPassword"], "pwujczyk@hotmail.com", "DNSModddnitor", body);
 ```
-![Lock screen](Images/Powershell.png)
-
-To install module use 
-
-```powershell
-Install-Module -Name ProductivityTools.PSSetLockScreen
-```
-
-Script adds new node to regedit **PersonalizationCSP** which contains information where to found image displayed on lock screen.
-
-![Lock screen](Images/Regedit.png)
-
-Script copy chosen image to **C:\Windows\System32** path.
-
-Both actions required administrator permissions so you need to run PowerShell as administrator. 
-
-### Dependencies:
-
-Module depends on **ProductivityTools.PSTestIfAdmin**, which is installed automatically after invoking above command. 
