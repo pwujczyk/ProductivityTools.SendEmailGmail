@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Paweł Wujczyk</Authors>
     <Company>ProductivityTools</Company>
@@ -11,8 +10,8 @@
     <PackageLicenseUrl>https://www.gnu.org/licenses/lgpl-3.0.html</PackageLicenseUrl>
     <PackageIcon>ProductivityTools_blue_85px_1.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>0.0.13</Version>
   </PropertyGroup>
-
   <ItemGroup>
     <None Include="..\Images\Nuget\ProductivityTools_blue_85px_1.png">
       <Pack>True</Pack>
@@ -23,5 +22,4 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-
 </Project>
