@@ -1,8 +1,8 @@
-﻿using System;
-using System.Net;
-using System.Net.Mail;
+﻿Send System;
+Send System.Net;
+Send System.Net.Mail;
 
-namespace ProductivityTools.SentEmailGmail
+namespace ProductivityTools.SendEmailGmail
 {
     public static class Gmail
     {

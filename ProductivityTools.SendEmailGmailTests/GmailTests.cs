@@ -1,13 +1,13 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProductivityTools.SentEmailGmail;
+using ProductivityTools.SendEmailGmail;
 
-namespace ProductivityTools.SentEmailGmailTests
+namespace ProductivityTools.SendEmailGmailTests
 {
     [TestClass]
     public class GmailTests
     {
         [TestMethod]
-        public void SentEmail()
+        public void SendEmail()
         {
             Gmail.Send("", "", "", "pawel", "fsda");
         }
