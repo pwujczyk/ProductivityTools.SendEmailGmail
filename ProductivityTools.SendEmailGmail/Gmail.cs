@@ -1,6 +1,6 @@
-﻿Send System;
-Send System.Net;
-Send System.Net.Mail;
+﻿using System;
+using System.Net;
+using System.Net.Mail;
 
 namespace ProductivityTools.SendEmailGmail
 {
@@ -20,7 +20,7 @@ namespace ProductivityTools.SendEmailGmail
             smtp.UseDefaultCredentials = false;
             smtp.Credentials = new NetworkCredential(from, password);
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-            smtp.Send(message);        
+            smtp.Send(message);
         }
     }
 }
