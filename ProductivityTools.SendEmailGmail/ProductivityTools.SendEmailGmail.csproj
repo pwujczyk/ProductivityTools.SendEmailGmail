@@ -10,7 +10,7 @@
     <PackageLicenseUrl>https://www.gnu.org/licenses/lgpl-3.0.html</PackageLicenseUrl>
     <PackageIcon>ProductivityTools_blue_85px_1.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>0.0.13</Version>
+    <Version>0.0.14</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\Images\Nuget\ProductivityTools_blue_85px_1.png">
